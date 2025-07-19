@@ -13,7 +13,7 @@ float signal[FFT_SIZE];
 float filtered[FFT_SIZE];
 float fir_state[FFT_SIZE + 30];
 
-// Example Raised Cosine Filter Coefficients (truncated)
+// Raised Cosine Filter Coefficients (truncated)
 float fir_coeffs[31] = {
   -0.0001, -0.0003, -0.0007, -0.0012, -0.0017, -0.0022, -0.0025, -0.0026,
   -0.0022, -0.0012,  0.0006,  0.0031,  0.0063,  0.0098,  0.0135,  0.0170,
